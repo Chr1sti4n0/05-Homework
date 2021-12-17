@@ -70,3 +70,10 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+.row {
+  border: 2px #ff6961;
+}
+
+.btn-default {
+  display: block;
+}
