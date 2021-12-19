@@ -15,7 +15,7 @@ This website displays the curent date at the top of the page, standard business 
 - Click the blue save button on the right side of the event text box to save your event
 
 #
-<img width="1547" alt="Screen Shot 2021-12-16 at 10 16 43 PM" src="https://user-images.githubusercontent.com/92955084/146492938-27240992-2187-4026-8aba-347c70f03214.png">
+<img width="1319" alt="Screen Shot 2021-12-19 at 3 23 57 PM" src="https://user-images.githubusercontent.com/92955084/146692964-22e8dec8-0f02-40c1-94eb-580481f0d0e6.png">
 
 ## URL
 GitHub URL: https://github.com/Chr1sti4n0/05-Homework

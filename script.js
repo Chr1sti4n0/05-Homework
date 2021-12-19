@@ -50,7 +50,6 @@ function dayTime() {
         time9.classList.add('present');
         time9.classList.remove('past');
         time9.classList.remove('future');
-        console.log("time")
     } else if (today.format("H") < time9.id) {
         time9.classList.add('past');
         time9.classList.remove('present');
@@ -65,7 +64,7 @@ function dayTime() {
         time10.classList.remove('past');
         time10.classList.remove('future');
         console.log("time")
-    } else if (today.format("H") < time10.id) {
+    } else if (today.format("H") > time10.id) {
         time10.classList.add('past');
         time10.classList.remove('present');
         time10.classList.remove('future');
@@ -79,7 +78,7 @@ function dayTime() {
         time11.classList.remove('past');
         time11.classList.remove('future');
         console.log("time")
-    } else if (today.format("H") < time11.id) {
+    } else if (today.format("H") > time11.id) {
         time11.classList.add('past');
         time11.classList.remove('present');
         time11.classList.remove('future');
@@ -93,7 +92,7 @@ function dayTime() {
         time12.classList.remove('past');
         time12.classList.remove('future');
         console.log("time")
-    } else if (today.format("H") < time12.id) {
+    } else if (today.format("H") > time12.id) {
         time12.classList.add('past');
         time12.classList.remove('present');
         time12.classList.remove('future');
@@ -107,7 +106,7 @@ function dayTime() {
         time1.classList.remove('past');
         time1.classList.remove('future');
         console.log("time")
-    } else if (today.format("H") < time1.id) {
+    } else if (today.format("H") > time1.id) {
         time1.classList.add('past');
         time1.classList.remove('present');
         time1.classList.remove('future');
@@ -121,7 +120,7 @@ function dayTime() {
         time2.classList.remove('past');
         time2.classList.remove('future');
         console.log("time")
-    } else if (today.format("H") < time2.id) {
+    } else if (today.format("H") > time2.id) {
         time2.classList.add('past');
         time2.classList.remove('present');
         time2.classList.remove('future');
@@ -135,7 +134,7 @@ function dayTime() {
         time3.classList.remove('past');
         time3.classList.remove('future');
         console.log("time")
-    } else if (today.format("H") < time3.id) {
+    } else if (today.format("H") > time3.id) {
         time3.classList.add('past');
         time3.classList.remove('present');
         time3.classList.remove('future');
@@ -149,7 +148,7 @@ function dayTime() {
         time4.classList.remove('past');
         time4.classList.remove('future');
         console.log("time")
-    } else if (today.format("H") < time4.id) {
+    } else if (today.format("H") > time4.id) {
         time4.classList.add('past');
         time4.classList.remove('present');
         time4.classList.remove('future');
@@ -163,7 +162,7 @@ function dayTime() {
         time5.classList.remove('past');
         time5.classList.remove('future');
         console.log("time")
-    } else if (today.format("H") < time5.id) {
+    } else if (today.format("H") > time5.id) {
         time5.classList.add('past');
         time5.classList.remove('present');
         time5.classList.remove('future');
