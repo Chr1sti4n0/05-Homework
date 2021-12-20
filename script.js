@@ -23,6 +23,7 @@ var present = document.querySelector(".present")
 var future = document.querySelector(".future")
 var column8 = document.querySelector(".col-8")
 var description = document.querySelector(".description")
+var saveEvent = document.getElementById("saveEvent")
 var hours = ['9', '10', '11', '12', '1', '2', '3', '4', '5']
 
 
@@ -175,8 +176,16 @@ function dayTime() {
 
 dayTime();
 
-//for (i=0; i < hours.length; i++)
-//
+
+saveEvent.onclick = function() {
+    localStorage.setItem("description" , "")
+
+    document.getElementById("9").innerHTML = 
+    localStorage.getItem("description")
+}
+
+saveEvent();
+
 
 //if (today > the time displayed in the calendar, display the middle boxes in gray)
 //else if (today = the time displayed in the claendar, display the middle boxes red)
